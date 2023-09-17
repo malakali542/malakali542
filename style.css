@@ -1,0 +1,52 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace; /* Use Inconsolata font */
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-name {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+}
